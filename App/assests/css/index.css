@@ -1,0 +1,46 @@
+#header {
+    background-color: darkcyan;
+}
+
+.brand-logo{
+    margin-left: 25px;
+}
+
+.align-right {
+    float: right;
+}
+
+.btn-success {
+    background-color: #0fb10f !important;
+}
+
+#chamado {
+    margin-top: 30px;
+}
+
+
+.input-field {
+    margin-top: 2rem !important;
+}
+
+.fechar {
+    background-color: red !important;
+}
+
+.center {
+  margin: auto;
+  border: 3px solid green;
+  padding: 10px;
+}
+
+.center-text {
+    text-align: center !important;
+}
+
+.row {
+    margin-bottom: 5px !important;
+}
+
+.clickable{
+    cursor: pointer;
+}
