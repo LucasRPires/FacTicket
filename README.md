@@ -24,12 +24,12 @@ composer dump-autoload -o
 ```
 
 ## Usabilidade
-No diretório raiz do projeto você irá encontrar um arquivo denominamdo *ticket.sql*. Importe e execute ele em seu cliento do *Mysql*.
+No diretório raiz do projeto você irá encontrar um arquivo denominamdo *ticket.sql*. Importe e execute ele em seu client do *Mysql*.
 ```bash
 ticket.sql
 ```
 
-Para configurar o banco de dados, crie um arquivo no diretório raiz do projeto com o nome *.env* segundo o modelo do arquivo *.env.exemple*
+Para configurar o banco de dados, crie um arquivo no diretório raiz do projeto com o nome *.env* seguindo o modelo do arquivo *.env.exemple*
 ```
 MYSQL_HOST=127.0.0.1
 MYSQL_DB=your_db
