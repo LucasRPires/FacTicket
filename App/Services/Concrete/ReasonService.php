@@ -20,7 +20,7 @@ class ReasonService extends BaseService
         try {
             $this->resolve($this->repository->getAll());
         } catch (Exception $e) {
-            throw new Exception("Problemas ao carregar os Motivos");
+            $this->reject("Problemas ao carregar os Motivos");
         }
     }
 }
