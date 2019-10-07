@@ -20,7 +20,7 @@ class ClientService extends BaseService
         try {
             $this->resolve($this->repository->getAll());
         } catch (Exception $e) {
-            throw new Exception("Problemas ao carregar os Clientes");
+            $this->reject("Problemas ao carregar os Clientes");
         }
     }
 }
